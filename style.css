@@ -11,7 +11,7 @@ ul{
 body{
     background-image: url(./assets/background.jpg);
     background-position: top center;
-    background-size: 100% auto;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: #121214;
 }
@@ -24,6 +24,7 @@ body *{
 header{
     margin-top: 32px;
     height: calc(120px +32px);
+    
 }
 
 header div{
@@ -34,6 +35,7 @@ header div{
     display: flex;
     padding: 4px;
     transition: transform 0.3s;
+
 }
 
 header div:hover{
@@ -44,7 +46,6 @@ header div:hover{
 header img{
     width: 100%;
     border-radius: 50%;
-    
 }
 
 
@@ -98,6 +99,7 @@ section div{
     padding: 32px;
     padding-top: 24px;
     border-radius: 8px;
+
 }
 
 .games-list img{
