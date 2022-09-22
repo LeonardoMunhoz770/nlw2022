@@ -19,6 +19,7 @@ body{
 body *{
     font-family: 'Inter', sans-serif;
     line-height: 160%;
+    max-width: 100%;
 }
 
 header{
@@ -56,6 +57,7 @@ section{
     padding-top: 4px;
     border-radius: 10px;
 
+
 }
 
 section h2{
@@ -69,13 +71,13 @@ section p {
     color: #A1A1AA;
 }
 
+
 main{
-    max-width: 580px;
-    width: 90%;
+    max-width: 90%;
     margin: 32px auto;
     display: grid;
     gap: 24px;
-
+    width: 580px;
 }
 
 section ul{
